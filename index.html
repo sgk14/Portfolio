@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarvesh Kshirsagar | Electronics Engineer</title>
+  <meta name="description"
+    content="Portfolio of Sarvesh Kshirsagar – Electronics & Telecommunication Engineering student passionate about IoT, Embedded Systems, and Electronics Design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-icons">
+      <span>⚡</span><span>🔌</span><span>💡</span><span>🖥️</span><span>📡</span>
+    </div>
+    <p class="loader-text">Initializing...</p>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">SK<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="pulse-dot"></span> Open to Internships &amp; Projects
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Sarvesh</span><br />
+          <span id="typewriter" class="typewriter"></span>
+        </h1>
+        <p class="hero-desc">
+          Electronics &amp; Telecommunication Engineering student at K.K. Wagh Institute.
+          Passionate about <strong>IoT</strong>, <strong>Embedded Systems</strong>, and building smart solutions that
+          bridge hardware and software.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary" id="hire-btn">Hire Me</a>
+          <a href="#projects" class="btn btn-outline" id="projects-btn">View Projects</a>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:sarveshkshirsagar05@gmail.com" class="social-icon" title="Email" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sarvesh-kshirsagar-406943301" target="_blank" class="social-icon"
+            title="LinkedIn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="tel:9175209047" class="social-icon" title="Phone" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <div class="avatar-initials">SK</div>
+          </div>
+          <div class="orbit orbit-1">
+            <div class="orbit-dot"></div>
+          </div>
+          <div class="orbit orbit-2">
+            <div class="orbit-dot"></div>
+          </div>
+          <div class="floating-badge badge-iot">IoT</div>
+          <div class="floating-badge badge-embed">Embedded C</div>
+          <div class="floating-badge badge-arm">ARM Cortex</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-title">A Snapshot of Who I Am</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm <strong>Sarvesh Kshirsagar</strong>, an Electronics &amp; Telecommunication Engineering undergraduate
+              at <strong>K.K. Wagh Institute of Engineering, Nashik</strong> (CGPA: 7.53), passionate about merging
+              hardware and software to create real-world impact.</p>
+            <p>My journey spans from developing microcontroller-based home automation systems to working hands-on with
+              industrial electrical components. As <strong>President of SAEE</strong>, I've led technical &amp; cultural
+              events, honing both my engineering and leadership skills.</p>
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-num">4+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">2</span>
+                <span class="stat-label">Internships</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">7.53</span>
+                <span class="stat-label">CGPA</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">3+</span>
+                <span class="stat-label">Awards</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-info-cards">
+            <div class="info-card">
+              <div class="info-icon">🎓</div>
+              <div>
+                <div class="info-label">Education</div>
+                <div class="info-value">B.Tech – Electronics &amp; Telecommunication</div>
+                <div class="info-sub">K.K. Wagh Institute, Nashik · 2023–Present</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">📍</div>
+              <div>
+                <div class="info-label">Location</div>
+                <div class="info-value">Nashik, Maharashtra</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">🏆</div>
+              <div>
+                <div class="info-label">Leadership</div>
+                <div class="info-value">President – SAEE</div>
+                <div class="info-sub">Student Association of Electronics Engineering</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">🎭</div>
+              <div>
+                <div class="info-label">Also Known For</div>
+                <div class="info-value">Tabla Player · NSS Volunteer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-tag">Work Experience</div>
+        <h2 class="section-title">Where I've Worked</h2>
+        <div class="timeline">
+
+          <div class="timeline-item" data-aos>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Intern – Internet of Things (IoT)</h3>
+                  <div class="timeline-company">Emertxe Information Technologies</div>
+                </div>
+                <span class="timeline-date">Sep 2025 – Nov 2025</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Developed a microcontroller-based home automation system enabling remote control of electrical
+                  appliances via IoT &amp; wireless communication.</li>
+                <li>Implemented the system using Embedded C with hardware interfacing, applying real-time control for
+                  smart home functionality.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">Embedded C</span>
+                <span class="tag">IoT</span>
+                <span class="tag">Microcontrollers</span>
+                <span class="tag">Hardware Interfacing</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Intern – Electrical &amp; Control Systems</h3>
+                  <div class="timeline-company">Technosys Control Solutions</div>
+                </div>
+                <span class="timeline-date">Dec 2024 – Apr 2025</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Gained hands-on experience with electrical components (MCB, MCCB, ACB), wiring, and panel assembly
+                  in an industrial environment.</li>
+                <li>Developed practical knowledge of power systems, circuit protection, and basic control systems
+                  applying core ENTC concepts.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">Control Systems</span>
+                <span class="tag">Electrical Panels</span>
+                <span class="tag">Power Systems</span>
+                <span class="tag">ENTC</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-tag">Projects</div>
+        <h2 class="section-title">Things I've Built</h2>
+        <div class="projects-grid">
+
+          <div class="project-card" data-aos>
+            <div class="project-icon">🧊</div>
+            <div class="project-content">
+              <h3 class="project-title">IoT Based Smart Fridge</h3>
+              <span class="project-date">Feb 2024 – Jul 2024</span>
+              <p class="project-desc">Designed an IoT-based Smart Fridge to streamline food management and reduce waste
+                by monitoring the expiry dates of items stored.</p>
+              <div class="tag-row">
+                <span class="tag tag-blue">IoT</span>
+                <span class="tag tag-blue">Embedded C</span>
+                <span class="tag tag-blue">Sensors</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos>
+            <div class="project-icon">📱</div>
+            <div class="project-content">
+              <h3 class="project-title">Bluetooth Home Automation</h3>
+              <span class="project-date">Jul 2025 – Sep 2025</span>
+              <p class="project-desc">Simulated Bluetooth-controlled automation that wirelessly controls various home
+                appliances and security systems from smartphones.</p>
+              <div class="tag-row">
+                <span class="tag tag-purple">Bluetooth</span>
+                <span class="tag tag-purple">Microcontroller</span>
+                <span class="tag tag-purple">Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos>
+            <div class="project-icon">⚙️</div>
+            <div class="project-content">
+              <h3 class="project-title">Control Systems Practical Kit</h3>
+              <span class="project-date">March 2025</span>
+              <p class="project-desc">Built a practical kit demonstrating control systems concepts including
+                Bluetooth-controlled automation for home appliances and security.</p>
+              <div class="tag-row">
+                <span class="tag tag-green">Control Systems</span>
+                <span class="tag tag-green">MATLAB</span>
+                <span class="tag tag-green">PicsimLab</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos>
+            <div class="project-icon">🔧</div>
+            <div class="project-content">
+              <h3 class="project-title">L293D Motor Driver Circuit</h3>
+              <span class="project-date">March 2025</span>
+              <p class="project-desc">Designed and implemented a motor driver circuit using L293D IC to control DC motor
+                direction. Applied H-bridge circuits and microcontroller interfacing for efficient motor control.</p>
+              <div class="tag-row">
+                <span class="tag tag-orange">L293D IC</span>
+                <span class="tag tag-orange">H-Bridge</span>
+                <span class="tag tag-orange">DC Motors</span>
+                <span class="tag tag-orange">Embedded C</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-tag">Skills</div>
+        <h2 class="section-title">My Technical Arsenal</h2>
+        <div class="skills-grid">
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              <span class="skill-cat-icon">💻</span> Programming Languages
+            </h3>
+            <div class="skill-pills">
+              <div class="skill-pill"><span class="pill-icon">〈〉</span> Embedded C</div>
+              <div class="skill-pill"><span class="pill-icon">〈〉</span> Verilog</div>
+              <div class="skill-pill"><span class="pill-icon">〈〉</span> C++</div>
+              <div class="skill-pill"><span class="pill-icon">〈〉</span> HTML &amp; CSS</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              <span class="skill-cat-icon">🔲</span> Microcontrollers
+            </h3>
+            <div class="skill-pills">
+              <div class="skill-pill"><span class="pill-icon">⚙</span> PIC Family</div>
+              <div class="skill-pill"><span class="pill-icon">⚙</span> ARM Cortex-M4</div>
+              <div class="skill-pill"><span class="pill-icon">⚙</span> STM32</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              <span class="skill-cat-icon">🛠</span> Tools &amp; Simulation
+            </h3>
+            <div class="skill-pills">
+              <div class="skill-pill"><span class="pill-icon">📊</span> MATLAB</div>
+              <div class="skill-pill"><span class="pill-icon">📊</span> MPLAB IDE</div>
+              <div class="skill-pill"><span class="pill-icon">📊</span> PicsimLab</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              <span class="skill-cat-icon">🌟</span> Soft Skills
+            </h3>
+            <div class="skill-pills">
+              <div class="skill-pill"><span class="pill-icon">👑</span> Leadership</div>
+              <div class="skill-pill"><span class="pill-icon">🤝</span> Teamwork</div>
+              <div class="skill-pill"><span class="pill-icon">⏰</span> Time Management</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section achievements-section">
+      <div class="container">
+        <div class="section-tag">Achievements</div>
+        <h2 class="section-title">Milestones &amp; Recognition</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <div class="ach-icon">🥈</div>
+            <div class="ach-info">
+              <div class="ach-title">BOT COMBAT LEAGUE – 2nd Prize</div>
+              <div class="ach-sub">Robo Sumo · March 2025</div>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon">🥉</div>
+            <div class="ach-info">
+              <div class="ach-title">BOT COMBAT LEAGUE – 3rd Prize</div>
+              <div class="ach-sub">Robo Soccer · March 2025</div>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon">🏅</div>
+            <div class="ach-info">
+              <div class="ach-title">Best NSS Volunteer</div>
+              <div class="ach-sub">Feb 2026</div>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon">🎪</div>
+            <div class="ach-info">
+              <div class="ach-title">Participant – Mindspark 2025 (COEP)</div>
+              <div class="ach-sub">Co-Curricular · 2025</div>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon">☀️</div>
+            <div class="ach-info">
+              <div class="ach-title">Participant – Sunhacks 2024</div>
+              <div class="ach-sub">Co-Curricular · 2024</div>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon">⚔️</div>
+            <div class="ach-info">
+              <div class="ach-title">Participant – Combat League 2025 (SPIT)</div>
+              <div class="ach-sub">Co-Curricular · 2025</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-tag">Contact</div>
+        <h2 class="section-title">Let's Work Together</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="contact-intro">I'm always excited to connect with new people and explore opportunities. Feel free
+              to reach out!</p>
+            <div class="contact-items">
+              <a href="mailto:sarveshkshirsagar05@gmail.com" class="contact-item" id="email-link">
+                <div class="contact-item-icon">✉️</div>
+                <div>
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-value">sarveshkshirsagar05@gmail.com</div>
+                </div>
+              </a>
+              <a href="tel:9175209047" class="contact-item" id="phone-link">
+                <div class="contact-item-icon">📞</div>
+                <div>
+                  <div class="contact-item-label">Phone</div>
+                  <div class="contact-item-value">+91 9175209047</div>
+                </div>
+              </a>
+              <div class="contact-item">
+                <div class="contact-item-icon">📍</div>
+                <div>
+                  <div class="contact-item-label">Location</div>
+                  <div class="contact-item-value">Nashik, Maharashtra</div>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/sarvesh-kshirsagar-406943301" target="_blank" class="contact-item"
+                id="linkedin-link">
+                <div class="contact-item-icon">💼</div>
+                <div>
+                  <div class="contact-item-label">LinkedIn</div>
+                  <div class="contact-item-value">sarvesh-kshirsagar-406943301</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="send-btn">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">SK<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Sarvesh Kshirsagar · Built with passion ⚡</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
